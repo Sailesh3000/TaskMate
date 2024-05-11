@@ -188,10 +188,27 @@ header {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
+.dark-mode .loginbox{
+  height: 70vh;
+  margin: 40px;
+  width: 30vw;
+  padding: 40px;
+  background-color: #8355ad;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
 .loginbox h2{
   font-size: 2rem;
   margin-bottom: 20px;
   color: #000000;
+  text-align: center;
+}
+
+.dark-mode .loginbox h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(237, 237, 237);
   text-align: center;
 }
 
@@ -205,6 +222,12 @@ header {
 .loginbox form label{
   font-size: 1.1rem;
   color: #000000;
+  margin:2px;
+}
+
+.dark-mode .loginbox form label{
+  font-size: 1.1rem;
+  color: #e8e3e3;
   margin:2px;
 }
 
@@ -229,11 +252,25 @@ header {
   margin:10px 0px;
 }
 
+.dark-mode .loginbox form a{
+  color: rgb(226, 225, 225);
+}
+
 .loginbox form button{
   height: 40px;
   border-radius: 5px;
   border: none;
   background-color: #9333EA;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.dark-mode .loginbox form button{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #a17bc7c4;
   color: white;
   font-size: 1.2rem;
   cursor: pointer;
@@ -247,6 +284,12 @@ header {
 .loginbox form .info{
   font-size: 1rem;
   color: #6B7280;
+  margin: 10px 0px;
+}
+
+.dark-mode .loginbox form .info {
+  font-size: 1rem;
+  color: rgb(225, 225, 225);
   margin: 10px 0px;
 }
 
